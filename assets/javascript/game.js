@@ -108,11 +108,11 @@ $(document).ready(function() {
 
 
 function restart(){
-    var butVal1 = (Math.floor(Math.random() * 12) + 1);
-    var butVal2 = (Math.floor(Math.random() * 12) + 1);
-    var butVal3 = (Math.floor(Math.random() * 12) + 1);
-    var butVal4 = (Math.floor(Math.random() * 12) + 1);
-    var ranNum = Math.floor(Math.random() * 102) +19;
+    butVal1 = (Math.floor(Math.random() * 12) + 1);
+    butVal2 = (Math.floor(Math.random() * 12) + 1);
+    butVal3 = (Math.floor(Math.random() * 12) + 1);
+    butVal4 = (Math.floor(Math.random() * 12) + 1);
+    ranNum = Math.floor(Math.random() * 102) +19;
     $("#ranNum").html(ranNum);
     playerNum = 0;
     $("#userScore").html(`<p>${playerNum}</p>`);
