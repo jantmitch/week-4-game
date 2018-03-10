@@ -36,14 +36,13 @@ $(document).ready(function beginGame() {
         var button4 = $(this).attr("value", butVal4);
         console.log(butVal4);
     });
-});
 
 
-while (ranNum >= playerNum){
+// while (ranNum >= playerNum){
 
-    playerNum = $(document).on("click", + playerNum);
-    $("#userScore").html(playerNum);
-}
+//     playerNum =  butVal1 + playerNum;
+//     $("#userScore").html(playerNum);
+// }
     if (ranNum === playerNum){
         alert("You win!!");
         win++;
@@ -72,7 +71,7 @@ function restart(){
     beginGame();
 };
 
-
+});
 
 
 
