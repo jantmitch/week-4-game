@@ -16,7 +16,7 @@ $(document).ready(function() {
     $("#btn1").on("click", function(){
 
         var button1 = $(this).attr("value", butVal1);
-        playerNum += butVal1
+        playerNum += butVal1;
         $("#userScore").html(`<p> ${playerNum}</p>`);
         
 
@@ -24,7 +24,7 @@ $(document).ready(function() {
            
             alert("You win!!");
             win++;
-            $("#win").text("Wins: " + win)
+            $("#win").text(`Wins: ${win}`);
             restart();
             }
         else if (ranNum < playerNum){
@@ -40,7 +40,7 @@ $(document).ready(function() {
     $("#btn2").on("click", function(){
 
         var button2 = $(this).attr("value", butVal2);
-        playerNum += butVal2
+        playerNum += butVal2;
         $("#userScore").html(`<p> ${playerNum}</p>`);
         
 
@@ -48,7 +48,7 @@ $(document).ready(function() {
            
             alert("You win!!");
             win++;
-            $("#win").text("Wins: " + win)
+            $("#win").text(`Wins: ${win}`);
             restart();
             }
         else if (ranNum < playerNum){
@@ -63,7 +63,7 @@ $(document).ready(function() {
     $("#btn3").on("click", function(){
 
         var button3 = $(this).attr("value", butVal3);
-        playerNum += butVal3
+        playerNum += butVal3;
         $("#userScore").html(`<p> ${playerNum}</p>`);
         
 
@@ -71,7 +71,7 @@ $(document).ready(function() {
            
             alert("You win!!");
             win++;
-            $("#win").text("Wins: " + win)
+            $("#win").text(`Wins: ${win}`);
             restart();
             }
         else if (ranNum < playerNum){
@@ -86,7 +86,7 @@ $(document).ready(function() {
     $("#btn4").on("click", function(){
 
         var button4 = $(this).attr("value", butVal4);
-        playerNum += butVal4
+        playerNum += butVal4;
         $("#userScore").html(`<p> ${playerNum}</p>`);
         
 
@@ -94,7 +94,7 @@ $(document).ready(function() {
            
             alert("You win!!");
             win++;
-            $("#win").text("Wins: " + win)
+            $("#win").text(`Wins: ${win}`);
             restart();
             }
         else if (ranNum < playerNum){
